@@ -11,7 +11,7 @@ body {
 }
 
 .accordion {
-  width: 10rem;
+  width: 100%;
   margin: 5rem auto;
   display: flex;
   flex-direction: column;
@@ -49,6 +49,9 @@ body {
   grid-column: 2 / -1;
   padding-bottom: 16px;
   line-height: 1.6;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .content-box ul {

@@ -26,16 +26,20 @@ export default function App() {
 
 function Accordion() {
   return (
-    <div className="accordion">
-      {faqs.map((el, num) => (
-        <AccordionQuestion
-          question={el.title}
-          answer={el.text}
-          num={num}
-          key={num}
-        />
-      ))}
-    </div>
+    <>
+      <div className="accordion">
+        {faqs.map((el, num) => (
+          <AccordionQuestion
+            question={el.title}
+            answer={el.text}
+            num={num}
+            key={num}
+          />
+        ))}
+      </div>
+
+      <AddItems />
+    </>
   );
 }
 function AccordionQuestion({ question, answer, num }) {
@@ -54,4 +58,17 @@ function AccordionQuestion({ question, answer, num }) {
       {!isOpen && <div className="content-box">{answer}</div>}
     </div>
   );
+}
+function AddItems() {
+  const styles = {
+    position: "absolute",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    margin: "1.5rem auto",
+    padding: "1.25rem 2.5rem",
+    borderRadius: "1rem",
+    pointer: "cursor",
+  };
+
+  return <button style={styles}>ADD</button>;
 }

@@ -67,7 +67,7 @@ function AddItems() {
     margin: "1.5rem auto",
     padding: "1.25rem 2.5rem",
     borderRadius: "1rem",
-    pointer: "cursor",
+    cursor: "pointer",
   };
 
   return <button style={styles}>ADD</button>;

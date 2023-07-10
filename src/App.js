@@ -68,6 +68,8 @@ function AddItems() {
     padding: "1.25rem 2.5rem",
     borderRadius: "1rem",
     cursor: "pointer",
+    fontSize: "1rem",
+    color: "red",
   };
 
   return <button style={styles}>ADD</button>;

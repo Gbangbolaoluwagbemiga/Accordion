@@ -70,6 +70,7 @@ function AddItems() {
     cursor: "pointer",
     fontSize: "1rem",
     color: "red",
+    background: "#ced4da",
   };
 
   return <button style={styles}>ADD</button>;

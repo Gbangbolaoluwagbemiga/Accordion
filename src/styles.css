@@ -11,7 +11,7 @@ body {
 }
 
 .accordion {
-  width: 95%;
+  width: 100%;
   margin: 4rem auto;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,8 @@ body {
 }
 
 .item {
+  width: 80%;
+  margin: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   padding: 20px 24px;
   padding-right: 48px;

@@ -85,3 +85,9 @@ textarea {
 .details {
   margin: 5rem auto;
 }
+@media screen and (max-width:567px){
+.number,.title,
+.icon {
+  font-size: 20px;
+}
+}

@@ -19,7 +19,7 @@ body {
 }
 
 .item {
-  width: 80%;
+  width: 85%;
   margin: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   padding: 20px 24px;
@@ -74,4 +74,14 @@ body {
 .open .number,
 .open .text {
   color: #087f5b;
+}
+input,
+textarea {
+  display: block;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+}
+.details {
+  margin: 5rem auto;
 }
